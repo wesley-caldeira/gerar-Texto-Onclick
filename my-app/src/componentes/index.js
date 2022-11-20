@@ -1,31 +1,27 @@
 import React, {useState} from "react";
+
 import './index.css'
+
 export default function PaginaInicial() {
 
-    const [numeroAleatorio, setNumeroAleatorio] = useState(1);
+    const [NovoTexto, setNovotexto] = useState();
 
-        function Gerarnumero() {
-            const novoNumero = Math.floor(Math.random() * (100-1 ) + 1);
-            setNumeroAleatorio(novoNumero);
-        }  
-            return(
-                <div className="altura">
+    function alterarTexto() {
+        setNovotexto('Olá mundo!')
+    }
+        
+        return(
+            <div className="conteudo-centralizado altura">
+                <div>
+                    <h1>Gerar texto no Botao Abaixo</h1>
+                    <h2 className="Area-Texto">{NovoTexto}</h2>
+                </div>
 
-                <div className="conteudo-centralizado">
-                    <h3>Numero aleatorio</h3>
-                    <h1>{ numeroAleatorio }</h1>
-
-                    <div className='area-botao' >
-                        <label>
-                            Click no botao para gerar um novo numero
-                        </label>
-
-                        <button className="areabutton" onClick={Gerarnumero}>
-                            
-                            Gerar numero
-                        </button>
-                    </div>
+                <div className="area-botao">
+                    <button onClick={alterarTexto}>
+                        Gerar texto
+                    </button>
                 </div>
             </div>
-            );
-        }
+        );
+    }

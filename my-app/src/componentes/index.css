@@ -27,6 +27,11 @@
     flex-direction: column;
     text-align: center;
   }
+  .Area-Texto:hover{
+    width: max-content;
+    
+    background-color: #0AC5D4;
+  }
   
   button {
     margin-top:20px;
