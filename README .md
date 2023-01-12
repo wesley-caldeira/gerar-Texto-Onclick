@@ -1,4 +1,4 @@
-# Barbearia-React-js
+# Gerar Texto
 <img src="https://img.shields.io/badge/Status%20do%20Projeto-Completado-green">
 
 <img src="my-app\my-app\public\layout\screencapture-localhost-3000-2023-01-11-21_25_59.png">
@@ -15,4 +15,4 @@
 
 # Aparencia do projeto para multiplas telas:
 
-Acesse o link e veja todas as imagens e videos do projeto <a href="">Click aqui.</a>
+Acesse o link e veja todas as imagens e videos do projeto <a href="https://github.com/wesley-caldeira/gerar-numeros-aletorio/tree/main/my-app/my-app/public/layout">Click aqui.</a>
