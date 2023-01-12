@@ -1,7 +1,7 @@
 # Barbearia-React-js
 <img src="https://img.shields.io/badge/Status%20do%20Projeto-Completado-green">
 
-<img src="my-app\public\layout\screencapture-localhost-3000-2023-01-11-21_25_59.png">
+<img src="my-app\my-app\public\layout\screencapture-localhost-3000-2023-01-11-21_25_59.png">
 
     O Objetivo do projeto e ultilizar o evento de click para gerar um texto pre determinado no programa.
 
